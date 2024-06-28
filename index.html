@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="text/css" href="1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>PetWell</title>
+</head>
+
+<nav >
+    <section>
+        <div class="seccion-principal">
+    <ul class="nav justify-content-end"  >
+        <li class="nav-item">
+          <a class="nav-link active" style= "color:white; background-color: #FF7D29;  border-radius: 4px; margin-right: 5px;" aria-current="page" href="#testimonio">Testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style= "color:white; background-color: #FF7D29; border-radius: 4px; margin-right: 5px;" href="#formulario">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style= "color:white; background-color: #FF7D29; border-radius: 4px; margin-right: 5px;" href="#tips">Caracteristicas</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" style= "color:white; background-color: #FF7D29; border-radius: 4px; margin-right: 5px;" href="#contacto">Contacto</a>
+      </li>
+    </ul>
+      <h3 style="margin-left: 20px; color:white;" >Cuida de tus mascotas<br> con <strong style="color:#FF7D29">PetWell</strong> <img src="1.png" alt="" width="40px" style="border-radius: 10px;"></h3><br>
+      <p class="" style="color:white; margin-left: 20px;">Bienvenido a PetWell, tu plataforma completa para el cuidado<br> de mascotas.
+         En PetWell, nos dedicamos a proporcionar a dueños<br> de mascotas como tú 
+         todo lo que necesitan para mantener a sus<br> amigos peludos felices y saludables
+          Nuestra aplicación innovadora<br> combina funcionalidades esenciales que facilitan
+           la vida de los <br>amantes de las mascotas.</p>
+           <h4 style="margin-left: 20px; color:white;">Disponible para decargar:</h4><br>
+           <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary1" style="color: grey; background-color: white;  border-radius: 6px; border-color: white; margin-left: 20px;"type="button" ><img src="google.webp" style="width: 15px;"> GOOGLE PLAY</button>
+            <button class="btn btn-primary" style="color: grey; background-color: white; border-radius: 6px; border-color: white; margin-left: 20px;"type="button" ><img src="apple.png" style="width: 15px;">  Apple Store</button>
+          </div>
+      <img src="perro.png" style ="width: 250px; margin-left: 570px; margin-top: -330px;">
+      <img src="gato.png"  style ="width: 300px; margin-left: 635px; margin-top: -290px;" >
+        </div>
+    </section>
+</nav>
+
+<!--Fomulario-->
+
+<aside >
+  <form id="formulario">
+   <h4>Suscribete a un boletin de noticas y recibe actualizaciones sobre la aplicacion <strong style="color:#FF7D29;">PetWell</strong></h4>
+    <div class="mb-3">
+      <label for="" class="form-label">Nombre completo:</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Correo Electronico:</label>
+      <input type="email" class="form-control" >
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Tipo de mascota:</label>
+      <input type="text" class="form-control" >
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Pais:</label><br>
+      <select id="pais" name="pais">
+        <option value="DE">Alemania</option>
+        <option value="AU">Australia</option>
+        <option value="BR">Brasil</option>
+        <option value="CA">Canadá</option>
+        <option value="CN">China</option>
+        <option value="CO">Colombia</option>
+        <option value="KR">Corea del Sur</option>
+        <option value="ES">España</option>
+        <option value="US">Estados Unidos</option>
+        <option value="FR">Francia</option>
+        <option value="IN">India</option>
+        <option value="IT">Italia</option>
+        <option value="JP">Japón</option>
+        <option value="MX">México</option>
+        <option value="NL">Países Bajos</option>
+        <option value="GB">Reino Unido</option>
+        <option value="RU">Rusia</option>
+        <option value="ZA">Sudáfrica</option>
+        <option value="SE">Suecia</option>
+        <option value="otros">Otros</option>
+      </select>
+      
+    
+    </div>
+    
+    <div class="mb-3 form-check" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Aceptar los términos y condiciones de la suscripción.</label>
+    </div>
+    <button type="submit" class="btn btn-primary" style="background-color:#FF7D29; border-color: #FF7D29;" >Inscribirse</button>
+  </form>
+
+</aside>
+<!---Caracteristicas--->
+<main id="tips">
+  <strong><h4 style="color:#FF7D29;">En nuestra app encontras caracteristicas como:</h4></strong><br>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         <img src="gatobaño.jpeg" width="60px" style="border-radius: 30px;"> <strong>Consejos:</strong>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          tu guía indispensable para el bienestar de tus mascotas. Encuentra consejos expertos para el baño ideal, junto con herramientas y recursos diseñados para hacer más feliz la vida de tu amigo peludo. ¡Explora cómo puedes cuidar mejor a tu mascota con PetWell hoy mismo!"
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <img src="vacunas.jpeg" alt="" width="60px" style="border-bottom: 40px;"><strong>Recordatorios de vacunas:</strong>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          No vuelvas a perder un momento importante: nuestra aplicación te ofrece recordatorios personalizados para las vacunas de tu mascota
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <img src="ambulancia.jpeg" alt="" width="60px" style="border-bottom: 40px;"><strong>Casos de emergencia:</strong>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+¡Prepárate para cualquier situación con PetWell! Nuestra aplicación especializada te ofrece asesoramiento inmediato en casos de emergencia con tus mascotas. Desde guías paso a paso hasta contactos directos con profesionales veterinarios. 
+        </div>
+      </div>
+  </div>  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <img src="comida.jpeg" width="60px" style="border-radius: 30px;"> <strong>Recomendaciones Diarias como Alimentacion Balanceada:</strong>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">PetWell es tu compañero digital definitivo para asegurar que tus mascotas disfruten de una alimentación balanceada y saludable. Diseñada con amor por expertos en nutrición veterinaria, nuestra aplicación ofrece consejos personalizados y recomendaciones específicas para cada tipo de mascota, desde perros y gatos hasta aves y reptiles.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <img src="store.jpeg" alt="" width="60px" style="border-radius: 30px;"> <strong>Comunidad Activa:</strong>
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Únete a grupos y foros para intercambiar consejos, compartir historias, y conectar con otros amantes de las mascotas en tu área.
+      </div>
+    </div>
+  </div>
+  </div>  
+</main>
+<br>
+<marquee behavior="" direction=""><strong><i class="fa-regular fa-comment" style="color: #0f0f10;"></i> Nuestros Testimonios</strong></marquee>
+<div class="comentarios" id="testimonio">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
+        <img src="test.jpg" class="card-img-top" style="width: 100px; margin-left: 70px; border-radius: 50%; height: 110px;">
+        <div class="card-body">
+          <h5 style="color:#BC7FCD;" class="card-title">kendall34@gmail.com</h5>
+          <p class="card-text">Me encanta la app ha hecho que me conecte mas con mi mascota porque he aprendido a conectar mas con el😻💫</p>
+          <strong><p>Calificacion:</p></strong>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
+        <img src="sabrina.jpg" class="card-img-top" style="width: 100px; margin-left: 70px; border-radius: 50%; height: 110px;">
+        <div class="card-body">
+          <h5 style="color:#BC7FCD;" class="card-title">Sabrina_cp205@gmail.com</h5>
+          <p class="card-text">Es la app mas completa para el bienestar de nuestras mascostas la recomiendo muchisimo, ya q podemos entrar a grupos</p>
+          <strong><p>Calificacion:</p></strong>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
+        <img src="lala.jpg" class="card-img-top" style="width: 100px; margin-left: 70px; border-radius: 50%; height: 110px;">
+        <div class="card-body">
+          <h5 style="color:#BC7FCD;" class="card-title">elizamuñoz09@gmail.com</h5>
+          <p class="card-text">PetWell es una app demasiado buena me gusto mucho sus consejos y rutinas a mi mascosta le gustan❤</p>
+          <strong><p>Calificacion:</p></strong>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-regular fa-star" style="color: #61675b;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
+        <img src="jacob.jpg" class="card-img-top" style="width: 100px; margin-left: 70px; border-radius: 50%; height: 110px;">
+        <div class="card-body">
+          <h5 style="color:#BC7FCD;" class="card-title">santiago24f@gmail.com</h5>
+          <p class="card-text">Petwell es de las mejores aplicaciones que he conocido me gusta mucho su ayuda en casos de emergencia cuando no sabemos que hacer</p>
+          <strong><p>Calificacion:</p></strong>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
+        <img src="doja.jpg" class="card-img-top" style="width: 100px; margin-left: 70px; border-radius: 50%; height: 110px;">
+        <div class="card-body">
+          <h5 style="color:#BC7FCD;" class="card-title">camilagonzales@gmail.com</h5>
+          <p class="card-text">Amo mucho esta aplicacion me ha enseñado mucho sobre los cuidados hacia mis gatos ✨</p>
+          <strong><p>Calificacion:</p></strong>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-regular fa-star" style="color: #61675b;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
+        <img src="ari.jpg" class="card-img-top" style="width: 100px; margin-left: 70px; border-radius: 50%; height: 110px;">
+        <div class="card-body">
+          <h5 style="color:#BC7FCD;" class="card-title">Arianagrds@gmail.com</h5>
+          <p class="card-text">De mis favoritas recomiendo mucho descarga amo su diseño, sus consejos y la gran ayuda que significa!!</p>
+          <strong><p>Calificacion:</p></strong>
+          <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<body>
+  <footer id="contacto">
+    <div class="card" style="background-color: white;">
+      <h5 class="card-header"><strong style="color:#FF7D29">PetWell</strong></h5>
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <p style="color: #0a0a0a;">Siguenos en nuestras redes sociales:</p>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f" style="color: #0a0a0a;"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter" style="color: #0a0a0a;"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google" style="color: #0a0a0a;"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram" style="color: #0a0a0a;"></i>
+      </a>
+
+    </div>
+
+      <div class="card-body">
+        <p class="card-text" style="color:#BC7FCD">PetWell App se convierte en el compañero digital ideal <br>
+          para todo amante de las mascotas, contacte con nosotros a traves de:</p><br>
+          <i class="fa-regular fa-envelope" style="color:#BC7FCD;" ></i><STRONG> CORREO:</STRONG>  <a href="#" style="color:#BC7FCD;"> Petwell@gmail.com.co</a>
+        <br>
+        <i class="fa-solid fa-phone" style="color:#BC7FCD;"></i><STRONG> TELEFONO:</STRONG> <P style="color:#BC7FCD;"> +57 3024513229</P><br>
+       
+      </div>
+    </div>
+  </footer>
